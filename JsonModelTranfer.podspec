@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LiuXiangJing/JsonModelTranfer.git", :tag => "#{s.version}" }
 
-  s.source_files  = "JsonModelTranfer", "JsonModelTranfer/**/*.framework"
+  s.source_files  = "JsonModelTranfer", "JsonModelTranfer/**/JsonModelTranfer.framework"
 
 
   s.frameworks = "Foundation", "CoreData"
