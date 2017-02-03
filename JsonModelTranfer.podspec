@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JsonModelTranfer"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
     s.summary      = "简单的JsonModel转化器"
 
 
@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LiuXiangJing/JsonModelTranfer.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "JsonModelTranfer", "JsonModelTranfer/**/*.{h,m}"
+  s.source_files  = "JsonModelTranfer"
 
 
-    s.frameworks = "Foundation", "CoreData"
+  s.frameworks = "Foundation", "CoreData"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
