@@ -1,0 +1,6 @@
+framework module JsonModelTranfer {
+  umbrella header "JsonModelTranfer.h"
+
+  export *
+  module * { export * }
+}
